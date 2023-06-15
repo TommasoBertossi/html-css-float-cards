@@ -16,12 +16,23 @@ h1{
     content:"" ;
     clear: both;
     display: block;
+    clear: both;
 }
 
 /* Utility */
 
 .container{
-    width: 300px;
-    height: 300px;
-    border: 2px dotted black;
+    width: 80%;
+    margin: auto;
 }
+
+.team{
+   
+    border: 2px dotted black;
+    float: left;
+    width: calc((100% / 3) - 100px);
+    height: 200px;
+    margin: 50px;
+    background-color: #0f0e17;
+}
+
