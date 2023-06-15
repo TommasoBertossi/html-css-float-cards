@@ -3,6 +3,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    color: white;
 }
 
 h1{
@@ -13,8 +14,18 @@ h1{
 }
 img{
     float: left;
+    height: 100%;
 }
 
+ul{
+    list-style-type: none;
+    line-height: 57px;
+}
+
+a{
+    text-decoration: none;
+    color: #0084e1;
+}
 
 .clearfix::after{
     content:"" ;
@@ -32,11 +43,15 @@ img{
 
 .team{
    
-    border: 2px dotted black;
+   /*  border: 2px dotted black; */
     float: left;
     width: calc((100% / 3) - 100px);
-    height: 200px;
+    height: 169px;
     margin: 50px;
     background-color: #0f0e17;
 }
 
+.color-black{
+    color: black;
+    text-align: center;
+}
