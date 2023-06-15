@@ -11,6 +11,10 @@ h1{
     color: #e52d6d;
     padding: 50px;
 }
+img{
+    float: left;
+}
+
 
 .clearfix::after{
     content:"" ;
