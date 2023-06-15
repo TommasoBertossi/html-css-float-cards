@@ -4,3 +4,24 @@
     margin: 0;
     padding: 0;
 }
+
+h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #e52d6d;
+    padding: 50px;
+}
+
+.clearfix::after{
+    content:"" ;
+    clear: both;
+    display: block;
+}
+
+/* Utility */
+
+.container{
+    width: 300px;
+    height: 300px;
+    border: 2px dotted black;
+}
