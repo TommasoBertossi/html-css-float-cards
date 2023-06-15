@@ -37,8 +37,9 @@ a{
 /* Utility */
 
 .container{
-    width: 80%;
+    max-width: 80%;
     margin: auto;
+    padding: 15px;
 }
 
 .team{
